@@ -12,7 +12,7 @@ export const Input = (props)=>{
             <label htmlFor={`${props.inputType}`}>{props.labelContent}</label>
             <input type={`${props.inputType}`} id={`${props.inputId}`}
             value={props.value} 
-            onChange={onChangeHandler} 
+            onChange={onChangeHandler}
             onBlur={onBlurHandler}
             placeholder={props.placeholder}
             />
