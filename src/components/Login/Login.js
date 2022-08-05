@@ -2,7 +2,7 @@ import React, { useState, useEffect, useReducer, useContext } from 'react';
 import Card from '../UI/Card/Card';
 import classes from './Login.module.css';
 import Button from '../UI/Button/Button';
-import AuthContext from '../../context/auth-content';
+import AuthContext from '../../context/auth-context';
 import { Input } from '../UI/Input/Input';
 
 // The parameter 'state' is the previous email state and would be passed in by default...
